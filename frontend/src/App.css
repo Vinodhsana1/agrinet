@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.content-wrapper {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+/* Form Styles */
+form {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  margin-top: 2rem;
+}
+
+.dashboard h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.loading {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Chart Container Styles */
+.chart-container {
+  position: relative;
+  height: 400px;
+  margin-bottom: 3rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container:nth-of-type(1) {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.chart-container:nth-of-type(2) {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.chart-container:nth-of-type(3) {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Alert Styles */
+.alert {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
